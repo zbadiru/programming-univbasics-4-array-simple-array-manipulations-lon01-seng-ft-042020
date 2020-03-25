@@ -55,7 +55,7 @@ end
 def using_delete(instructors,steven)
   @instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   steven = "Steven"
-  @no_offense_steven = @instructors.delete(1, 3, 5)
+  @no_offense_steven = @instructors.delete(1)
 end
 
 def using_delete_at(famous_robots, integer)
